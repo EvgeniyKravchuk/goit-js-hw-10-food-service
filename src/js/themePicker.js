@@ -24,4 +24,3 @@ function themePicker(e) {
 bodyRef.classList.add(localStorageTheme);
 themeSwitchToggleRef.checked = localStorageToggle;
 window.localStorage.clear();
-console.log('nothing');
